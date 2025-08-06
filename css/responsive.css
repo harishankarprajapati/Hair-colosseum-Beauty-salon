@@ -20,20 +20,19 @@
 
 @media only screen and (max-width:768px) {
 
- .sececarddesktop {
+  .sececarddesktop {
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
-    width: 100%;
     z-index: 9999;
+    border-radius: 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
     background: #ffffff;
-    border-top: 2px solid #F51E52;
-    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    will-change: transform;
+    border-top:2px solid #F51E52 ;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 .icon-bar i {
     font-size: 26px;
@@ -42,17 +41,20 @@
 }
 
 .sececarddesktop a {
-    /* width: 34px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
     font-size: 16px;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 .icon-bar {
-        padding: 5px 0px;
-        position: relative;
-        display: flex;
-        z-index: 10;
-        justify-content: space-evenly !important;
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    z-index: 10;
+    justify-content: space-around !important;
 }
 
   .seccmetehadd {
