@@ -19,24 +19,29 @@
 
 
 @media only screen and (max-width:768px) {
-  .secherslid2 ,  .secherslid1  {
+
+  .secherslid2,
+  .secherslid1 {
     padding: 50px 20px 140px 20px;
     border-radius: 10px;
- }
+  }
 
   button.navbar-toggler {
     background: #171717;
     height: 35px;
-}
-.secpadlr {
+  }
+
+  .secpadlr {
     padding: 0px 0px;
-}
-  .secwhitpad  {
+  }
+
+  .secwhitpad {
     padding: 0;
   }
+
   .secmainlogo {
     width: 70% !important;
-}
+  }
 
   .sececarddesktop {
     position: fixed;
@@ -49,16 +54,17 @@
     flex-direction: column;
     gap: 0px;
     background: #ffffff;
-    border-top:2px solid #F51E52 ;
+    border-top: 2px solid #F51E52;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-}
-.icon-bar i {
+  }
+
+  .icon-bar i {
     font-size: 26px;
     cursor: pointer;
     padding-right: 0px;
-}
+  }
 
-.sececarddesktop a {
+  .sececarddesktop a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,14 +73,15 @@
     text-decoration: none;
     /* transition: all 0.3s ease; */
     padding-bottom: 5px;
-}
-.icon-bar {
+  }
+
+  .icon-bar {
     padding: 10px 20px;
     position: relative;
     display: flex;
     z-index: 10;
     justify-content: space-around !important;
-}
+  }
 
   .seccmetehadd {
     display: none;
@@ -111,17 +118,27 @@
 
   .slide-text p {
     font-size: 18px;
-        padding-top: 10px;
+    padding-top: 10px;
   }
+
   .slide-button {
     text-align: start;
     margin: 40px 0px 0px 0px !important;
-}
-
+  }
 
   .shop-title {
     font-size: 22px;
   }
+
+  .salon-name {
+    font-size: 35px;
+  }
+  .hero-content h1 {
+    font-size: 30px;
+ }
+ .hero-video{
+    height: 843px;
+ }
 
 }
 
