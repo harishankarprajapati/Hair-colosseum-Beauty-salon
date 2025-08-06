@@ -142,11 +142,15 @@
     margin: 10px 15px;
   }
 
-  .brand-strip,
-  .brand-reflection {
-    padding: 20px 0;
+  .brand-strip{
+    padding: 10px 0;
   }
-
+  .brand-reflection {
+    display: none;
+  }
+.secrevbg {
+    padding: 40px 0px 70px 0px;
+}
   .marquee-text {
     font-size: 30px;
     margin: 0 10px;
@@ -245,6 +249,12 @@
     gap: 10px;
     padding-bottom: 30px;
     justify-content: center;
+}
+.secrevitextp p {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
 }
 }
 
