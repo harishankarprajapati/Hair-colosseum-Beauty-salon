@@ -37,7 +37,7 @@
 
   .secherslid2,
   .secherslid1 {
-    padding: 50px 20px 140px 20px;
+    padding: 50px 20px 100px 20px;
     border-radius: 10px;
   }
 
@@ -170,6 +170,9 @@
 }
 .btn-story {
     margin: 35px 0px 20px 0px !important;
+}
+.heroslider .owl-nav {
+    display: none !important;
 }
 }
 
