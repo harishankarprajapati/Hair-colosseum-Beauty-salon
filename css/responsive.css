@@ -15,7 +15,22 @@
 
 @media only screen and (max-width:1024px) {}
 
-@media only screen and (max-width:999px) {}
+@media only screen and (max-width:999px) {
+  .offcanvas-header {
+    background: #171717;
+}
+.navbar-nav {
+    margin: 0px !important;
+}
+ button.navbar-toggler {
+    background: #171717;
+    height: 35px;
+  }
+  .headermenusec {
+    font-size: 22px;
+    padding-bottom: 22px !important;
+ }
+}
 
 
 @media only screen and (max-width:768px) {
@@ -134,12 +149,28 @@
     font-size: 35px;
   }
   .hero-content h1 {
-    font-size: 30px;
+    font-size: 20px;
  }
- .hero-video{
-    height: 843px;
- }
-
+.hero-section {
+    height: auto;
+    border-radius: 0;
+    }
+    .hero-overlay {
+    height: 88%;
+    }
+    .hero-content {
+    top: 0%;
+    transform: translateY(0%);
+}
+.secmarbt {
+    margin-right: 0px;
+}
+.secpadvd{
+  padding-top: 0px !important;
+}
+.btn-story {
+    margin: 35px 0px 20px 0px !important;
+}
 }
 
 @media only screen and (max-width: 576px) {
