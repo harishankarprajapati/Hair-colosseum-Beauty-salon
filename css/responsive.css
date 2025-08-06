@@ -178,6 +178,7 @@
   .social-sidebar {
     padding: 15px 8px;
     gap: 16px;
+    top: 45%;
   }
 
   .social-sidebar a {
