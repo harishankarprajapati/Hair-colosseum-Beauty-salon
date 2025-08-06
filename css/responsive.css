@@ -264,6 +264,9 @@
 .sectextbo1 {
     font-size: 13px;
 }
+.sec2blog {
+    font-size: 14px;
+}
 }
 
 @media only screen and (max-width: 576px) {
