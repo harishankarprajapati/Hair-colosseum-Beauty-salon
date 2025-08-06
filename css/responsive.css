@@ -177,7 +177,7 @@
   }
 
   .salon-name {
-    font-size: 35px;
+    font-size: 30px;
   }
   .hero-content h1 {
     font-size: 25px;
@@ -277,6 +277,9 @@
 .row.align-items-start.mb-4 {
     padding: 20px 10px;
 }
+.sectxtcolo {
+    font-size: 18px;
+ }
 }
 
 @media only screen and (max-width: 576px) {
