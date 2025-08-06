@@ -1177,3 +1177,127 @@ background-color: #000 !important;
   height: 22px;
   margin-left: 8px;
 }
+
+
+/* whatsapp */
+a {
+   text-decoration: none !important;
+ }
+ 
+ .floating_btn {
+   position: fixed;
+   bottom: 0px;
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   z-index: 1000;
+ }
+ 
+ @keyframes pulsing {
+   to {
+     box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+   }
+ }
+ 
+ .contact_icon {
+   background-color: #42db87;
+   color: #fff;
+   width: 60px;
+   height: 60px;
+   font-size: 30px;
+   border-radius: 50px;
+   text-align: center;
+   box-shadow: 2px 2px 3px #999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translatey(0px);
+   animation: pulse 1.5s infinite;
+   box-shadow: 0 0 0 0 #42db87;
+   -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   font-weight: normal;
+   font-family: sans-serif;
+   text-decoration: none !important;
+   transition: all 300ms ease-in-out;
+ }
+ 
+ .text_icon {
+   margin-top: 8px;
+   color: #707070;
+   font-size: 13px;
+ }
+ 
+ /* whatsapp end */
+
+ 
+/* back to top */
+#button {
+   display: inline-block;
+   background-color: #171717;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   border-radius: 4px;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   transition: background-color .3s, opacity .5s, visibility .5s;
+   opacity: 0;
+   visibility: hidden;
+   z-index: 1000;
+ }
+ #button::after {
+   content: "\f077";
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 2em;
+   line-height: 50px;
+   color: #fff;
+ }
+ #button:hover {
+   cursor: pointer;
+   background-color: #F51E52;
+ }
+ #button:active {
+   background-color: #F51E52;
+ }
+ #button.show {
+   opacity: 1;
+   visibility: visible;
+ }
+ .content {
+   width: 77%;
+   margin: 50px auto;
+   font-family: 'Merriweather', serif;
+   font-size: 17px;
+   color: #6c767a;
+   line-height: 1.9;
+ }
+ @media (min-width: 500px) {
+   .content {
+     width: 43%;
+   }
+   #button {
+     margin: 30px;
+   }
+ }
+ p.secdiet img {
+   padding-bottom: 10px;
+}
+ .content h1 {
+   margin-bottom: -10px;
+   color: #03a9f4;
+   line-height: 1.5;
+ }
+ .content h3 {
+   font-style: italic;
+   color: #96a2a7;
+ }
+ /* back to top-end */

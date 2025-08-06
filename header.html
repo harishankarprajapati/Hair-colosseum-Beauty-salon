@@ -172,22 +172,25 @@
 
 
 <!-- Back to top button -->
-<!-- <a id="button"></a> -->
+<a id="button"></a>
 
 <script>
-  const searchIcon = document.getElementById('searchIcon');
-  const searchContainer = document.getElementById('searchContainer');
-  const searchInput = document.getElementById('searchInput');
-  const closeBtn = document.getElementById('closeSearch');
+  var btn = $('#button');
 
-  searchIcon.addEventListener('click', () => {
-    searchContainer.style.display = 'block';
-    searchInput.focus();
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
   });
 
-  closeBtn.addEventListener('click', () => {
-    searchContainer.style.display = 'none';
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
   });
+
+
 </script>
 
 
