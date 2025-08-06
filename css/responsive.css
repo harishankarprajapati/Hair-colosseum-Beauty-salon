@@ -222,6 +222,7 @@
  }
  #sectabhome .nav-tabs .nav-link {
     font-size: 16px;
+    margin-bottom: 20px;
  }
  #sectabhome .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
    font-size: 16px !important;
