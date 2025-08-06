@@ -238,16 +238,21 @@ button.owl-next-custom.btn.btn-link.text-white {
 }
 
 /* Full-height carousel slide */
-.heroslider .item {
-  position: relative;
-  overflow: hidden;
+.secherslid1{
+  background-image: url(../images/sliderhero1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 50px;
+  border-radius: 30px;
+}
+.secherslid2{
+  background-image: url(../images/sliderhero2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 50px;
+  border-radius: 30px;
 }
 
-.heroslider .item img {
-
-  width: 100%;
-  border-radius: 20px;
-}
 
 .slide-text {
   z-index: 2;
@@ -261,9 +266,8 @@ button.owl-next-custom.btn.btn-link.text-white {
 }
 
 .slide-button {
-  z-index: 2;
-  top: 60%;
-  left: 80%;
+ position: relative;
+text-align: end;
 }
 
 /* Owl nav arrow styling */

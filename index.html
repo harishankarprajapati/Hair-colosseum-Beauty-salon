@@ -51,29 +51,25 @@
     <div class="secpadlr">
       <!-- Owl Carousel -->
       <div class="owl-carousel heroslider owl-theme ">
-        <div class="item">
-          <img src="images/sliderhero1.png" alt="Salon">
-
-          <!-- Text left -->
-          <div class="slide-text position-absolute top-50 start-0 translate-middle-y px-4 px-md-5">
+        <div class="item secherslid1">
+          <div class="slide-text ">
             <h2>Luxury Hair<br>& Beauty Salon</h2>
             <p class="lead2">An award-winning beauty destination</p>
           </div>
 
           <!-- Button right bottom -->
-          <div class="slide-button position-absolute bottom-0 end-0 m-4">
+          <div class="slide-button  bottom-0 end-0 m-4">
             <a href="#" class="btn secheobtn">Book an Appointment</a>
           </div>
         </div>
 
         <!-- Additional slide (optional) -->
-        <div class="item">
-          <img src="images/sliderhero2.png" alt="Salon 2">
-          <div class="slide-text position-absolute top-50 start-0 translate-middle-y px-4 px-md-5">
+        <div class="item secherslid2">
+          <div class="slide-text ">
             <h2>Pamper Yourself<br>Like Royalty</h2>
             <p class="lead2">Relax. Refresh. Renew.</p>
           </div>
-          <div class="slide-button position-absolute bottom-0 end-0 m-4">
+          <div class="slide-button  bottom-0 end-0 m-4">
             <a href="#" class="btn secheobtn">Book an Appointment</a>
           </div>
         </div>
@@ -912,7 +908,7 @@
     $(document).ready(function () {
       $(".owl-carousel.heroslider").owlCarousel({
         items: 1,
-        loop: true,
+        loop: false,
         autoplay: true,
         autoplayTimeout: 4000,
         nav: true,

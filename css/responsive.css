@@ -19,12 +19,17 @@
 
 
 @media only screen and (max-width:768px) {
-  
+  .secherslid2 ,  .secherslid1  {
+    padding: 50px 20px 160px 20px;
+ }
+
   button.navbar-toggler {
     background: #171717;
     height: 35px;
 }
-
+.secpadlr {
+    padding: 0px 0px;
+}
   .secwhitpad  {
     padding: 0;
   }
@@ -100,25 +105,18 @@
   }
 
   .slide-text h2 {
-    font-size: 28px;
+    font-size: 40px;
   }
 
   .slide-text p {
-    font-size: 16px;
+    font-size: 20px;
+        padding-top: 10px;
   }
-
   .slide-button {
-    bottom: 20px !important;
-    right: 20px !important;
-  }
+    text-align: start;
+    margin: 40px 0px 0px 0px !important;
+}
 
-  .service-img {
-    height: 200px;
-  }
-
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
 
   .shop-title {
     font-size: 22px;
