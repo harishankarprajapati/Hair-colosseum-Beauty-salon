@@ -20,7 +20,7 @@
 
 @media only screen and (max-width:768px) {
 
-.sececarddesktop {
+ .sececarddesktop {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -38,13 +38,28 @@
     transform: translateZ(0);
     will-change: transform;
 }
-
 .icon-bar i {
     font-size: 26px;
     cursor: pointer;
     padding-right: 0px;
 }
 
+/* .sececarddesktop a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+} */
+.icon-bar {
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    z-index: 10;
+    justify-content: space-around !important;
+}
 
   .seccmetehadd {
     display: none;
