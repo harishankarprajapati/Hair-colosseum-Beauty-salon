@@ -598,9 +598,8 @@ text-align: end;
 
 .product-image {
   width: 100%;
-  height: 250px;
   object-fit: contain;
-  background: #f9f9f9;
+  background: #FFFAF5;
 }
 
 .product-info {

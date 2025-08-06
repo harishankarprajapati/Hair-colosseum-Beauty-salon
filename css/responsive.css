@@ -183,6 +183,12 @@
     .hero-overlay {
     height: 93%;
     }
+    .secprdw {
+      width: 50%;
+    }
+    .product-card {
+  height: auto;
+    }
     .hero-content {
       padding: 40px 0px;
     top: 0%;
