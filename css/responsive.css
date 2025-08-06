@@ -45,6 +45,19 @@
     font-size: 19px;
 
     }
+    .secimhcolubg {
+    background: #FFF2F5;
+    padding: 30px 0px;
+}
+.secvidbtn1 {
+    padding: 12px 20px;
+    font-size: 14px;
+}
+.secvidbtn2 {
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
     .arrow-icon {
     font-size: 20px;
     color: #000;
@@ -161,7 +174,7 @@
     font-size: 35px;
   }
   .hero-content h1 {
-    font-size: 20px;
+    font-size: 25px;
  }
 .hero-section {
     height: auto;
@@ -179,6 +192,7 @@
 }
 .secpadvd{
   padding-top: 0px !important;
+  padding-bottom: 20px
 }
 .btn-story {
     margin: 35px 0px 20px 0px !important;
