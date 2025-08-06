@@ -29,9 +29,6 @@
     background: #ffffff;
     border-top: 2px solid #F51E52;
     box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 10px 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -44,21 +41,18 @@
     padding-right: 0px;
 }
 
-/* .sececarddesktop a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 34px;
+.sececarddesktop a {
+    /* width: 34px; */
     font-size: 16px;
     text-decoration: none;
     transition: all 0.3s ease;
-} */
+}
 .icon-bar {
-    padding: 10px 20px;
-    position: relative;
-    display: flex;
-    z-index: 10;
-    justify-content: space-around !important;
+        padding: 0px 20px;
+        position: relative;
+        display: flex;
+        z-index: 10;
+        justify-content: space-evenly !important;
 }
 
   .seccmetehadd {
