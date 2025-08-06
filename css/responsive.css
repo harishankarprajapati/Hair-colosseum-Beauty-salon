@@ -181,9 +181,10 @@
     border-radius: 0;
     }
     .hero-overlay {
-    height: 88%;
+    height: 100%;
     }
     .hero-content {
+      padding: 40px 0px;
     top: 0%;
     transform: translateY(0%);
 }
