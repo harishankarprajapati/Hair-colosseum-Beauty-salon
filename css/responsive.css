@@ -19,6 +19,18 @@
 
 
 @media only screen and (max-width:768px) {
+  
+  button.navbar-toggler {
+    background: #171717;
+    height: 35px;
+}
+
+  .secwhitpad  {
+    padding: 0;
+  }
+  .secmainlogo {
+    width: 70% !important;
+}
 
   .sececarddesktop {
     position: fixed;
@@ -64,6 +76,7 @@
 
   .sec-menu-bgg {
     margin-top: 0px;
+    padding: 0;
   }
 
   .sec-space-left-right-nav {
