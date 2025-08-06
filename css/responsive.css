@@ -40,6 +40,9 @@
     padding: 50px 20px 100px 20px;
     border-radius: 10px;
   }
+  .secmobw{
+    width: 50%;
+  }
 
   button.navbar-toggler {
     background: #171717;
