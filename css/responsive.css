@@ -40,6 +40,15 @@
     padding: 50px 20px 100px 20px;
     border-radius: 10px;
   }
+  .card-body .text-start h6 {
+    font-family: 'Inter';
+    font-size: 19px;
+
+    }
+    .arrow-icon {
+    font-size: 20px;
+    color: #000;
+}
   .secmobw{
     width: 50%;
   }
