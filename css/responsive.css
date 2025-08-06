@@ -251,10 +251,18 @@
     justify-content: center;
 }
 .secrevitextp p {
-    font-family: 'Inter';
     font-size: 18px;
     font-weight: 500;
     color: #fff;
+}
+.fw-bold {
+    font-size: 35px;
+}
+.sectect1blog {
+    font-size: 22px;
+}
+.sectextbo1 {
+    font-size: 13px;
 }
 }
 
