@@ -1,0 +1,100 @@
+/* -------1920--------- */
+
+@media only screen and (min-width:1920px) {
+
+  .container-fluid {
+    width: 1903px;
+    margin: auto;
+  }
+
+  .hero-section {
+    height: 75vh;
+  }
+}
+
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:999px) {}
+
+
+@media only screen and (max-width:768px) {
+
+  .seccmetehadd {
+    display: none;
+  }
+
+  .sec-menu-bgg {
+    margin-top: 0px;
+  }
+
+  .sec-space-left-right-nav {
+    padding: 0px 0px;
+  }
+
+  .brand-strip img,
+  .brand-reflection img {
+    max-height: 30px;
+    margin: 10px 15px;
+  }
+
+  .brand-strip,
+  .brand-reflection {
+    padding: 20px 0;
+  }
+
+  .marquee-text {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+
+  .slide-text h2 {
+    font-size: 28px;
+  }
+
+  .slide-text p {
+    font-size: 16px;
+  }
+
+  .slide-button {
+    bottom: 20px !important;
+    right: 20px !important;
+  }
+
+  .service-img {
+    height: 200px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .shop-title {
+    font-size: 22px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+  .social-sidebar {
+    padding: 15px 8px;
+    gap: 16px;
+  }
+
+  .social-sidebar a {
+    font-size: 18px;
+  }
+
+  .offer-badge {
+    font-size: 12px;
+    padding: 8px 4px;
+  }
+}
+
+@media only screen and (max-width:430px) {}
+
+@media only screen and (max-width:380px) {}
+
+
+@media only screen and (max-width:320px) {}
