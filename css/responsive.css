@@ -40,17 +40,15 @@
     padding-right: 0px;
 }
 
-.sececarddesktop a {
+/* .sececarddesktop a {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 34px;
-    height: 34px;
-    
     font-size: 16px;
     text-decoration: none;
     transition: all 0.3s ease;
-}
+} */
 .icon-bar {
     padding: 10px 20px;
     position: relative;
