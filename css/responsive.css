@@ -300,6 +300,20 @@
     .bottom-footer {
     padding: 15px 0px 70px 0px;
     }
+    /* shop */
+      .filter-sidebar {
+        margin-bottom: 30px;
+      }
+
+      .top-controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .list-view .product-card {
+        flex-direction: column;
+      }
+    /* shop-end */
 }
 
 @media only screen and (max-width: 576px) {
