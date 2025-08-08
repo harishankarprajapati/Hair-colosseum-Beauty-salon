@@ -1841,10 +1841,12 @@ input {
   font-weight: 700 !important;
   color: #000;
 }
+
 select#inputState {
-    font-size: 16px !important;
-      font-weight: 400 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
+
 .sec-contact-padding {
   padding: 60px 0px;
 }
