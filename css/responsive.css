@@ -440,6 +440,22 @@
 .secbgser {
     padding: 50px 10px 50px 10px;
 }
+ .proter {
+    padding: 25px 20px;
+  }
+
+  .proter h1 {
+    font-size: 24px;
+  }
+
+  .proter h2 {
+    font-size: 18px;
+  }
+
+  .proter p,
+  .proter ul {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 576px) {

@@ -1766,8 +1766,7 @@ button.accordion-button.collapsed {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 367.5%;
+  font-size: 20px;
   color: #000000;
   margin: 0;
 }
@@ -1818,8 +1817,8 @@ button.accordion-button.collapsed {
   color: #000000 !important;
 }
 
-select#inputState,
-input {
+select#inputState
+ {
   height: 47px !important;
 }
 
@@ -1833,6 +1832,11 @@ input {
   background: #F51E52;
   padding: 12px 35px;
   border: none;
+  margin-left: 20px;
+}
+
+.secbgborser {
+  background-color: #F8F8F8 !important;
 }
 
 .secserfto label {
@@ -1879,4 +1883,70 @@ select#inputState {
   font-size: 18px;
   font-family: 'Roboto';
   line-height: 32px;
+}
+
+.seccontbg {
+  padding: 60px 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.proter {
+  margin: auto;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+}
+
+/* Headings */
+.proter h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #111;
+  font-weight: 700;
+}
+
+.proter h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #444;
+  font-weight: 600;
+}
+
+/* Paragraphs and Lists */
+.proter p,
+.proter ul {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.proter ul {
+  padding-left: 20px;
+}
+h2#headingOne {
+    margin: 0;
+}
+
+/* FAQ Accordion Styling */
+.accordion-button {
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: 600;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #e2e2e2;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-top: 1px solid #dee2e6;
 }
