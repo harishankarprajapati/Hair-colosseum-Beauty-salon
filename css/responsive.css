@@ -10,6 +10,10 @@
   .hero-section {
     height: 75vh;
   }
+  .seccmetehadd {
+  background-color: #1F1F1F;
+  padding: 10px 20px 10px 20px;
+}
 }
 
 
@@ -346,20 +350,23 @@
   .bottom-footer {
     padding: 15px 0px 70px 0px;
   }
+  
 
   /* shop */
   .filter-sidebar {
-    margin-bottom: 30px;
+   display: none;
   }
 
   .top-controls {
-    flex-direction: column;
-    align-items: stretch;
+    display: none;
   }
 
   .list-view .product-card {
     flex-direction: column;
   }
+  .col-md-4.product-item {
+    width: 50%;
+}
 
   /* shop-end */
   /* product page  */
@@ -394,6 +401,10 @@
   }
 
   /* product page end */
+
+  #button {
+    bottom: 90px;
+ }
 }
 
 @media only screen and (max-width: 576px) {
