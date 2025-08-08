@@ -14,8 +14,127 @@
   background-color: #1F1F1F;
   padding: 10px 20px 10px 20px;
 }
+.slide-text h2 {
+    font-size: 100px;
 }
+.lead2 {
+    font-size: 30px;
+}
+.secheobtn {
+    font-size: 20px;
+}
+.headermenusec  , .icon-bar i , .secpatext p , .fa-brands, .fab {
+    font-size: 19px;
+}
+.welcome-text {
+    font-size: 30px;
+}
+.salon-name {
+    font-size: 65px;
+}
+.btn-story {
+  font-size: 19px;
+}
+.hero-content h1 {
+    font-size: 70px;
+}
+.shop-subtitle {
+    font-size: 20px;
+} 
+.label-new {
+    font-size: 14px;
+}
+#sectabhome .nav-tabs .nav-link {
+    font-size: 20px;
+}
+#sectabhome .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-size: 22px !important;
+}
+.product-name {
+    font-size: 20px;
+}
+.product-price {
+    font-size: 16px;
+}
+.add-cart-btn {
+    font-size: 18px !important;
+}
+.product-tag {
+    font-size: 14px;
+}
+.secbtnvwe a {
+    font-size: 20px;
+}
+.marquee-text {
+    font-size: 150px;
+    padding-bottom: 50px
+}
+.secmaesecbg {
+    padding: 0;
+    margin-top: -51px !important;
+}
+.brand-strip img, .brand-reflection img {
+    max-height: 60px;
+    }
+    .sec2blog {
+    font-size: 24px;
+    }
+    .small, small {
+    font-size: 22px;
+}
+.blog-tag {
+    font-size: 22px;
+ }
+ .sectextbo1 {
+    font-family: 'Inter';
+    font-size: 20px;
 
+ }
+ .sectect1blog {
+    font-family: 'Inter';
+    font-size: 45px;
+ }
+a.text-white.text-decoration-underline{
+    font-size: 20px;
+}
+.btn-view-all {
+    font-size: 19px;
+}
+.btn-view-all:hover{
+  color: #fff;
+}
+.top-bar2 {
+    padding: 60px 100px;
+}
+.secsertext strong {
+    font-size: 25px;
+}
+.secsertext small {
+    font-size: 19px;
+}
+.top-bar2 i {
+    font-size: 28px;
+}
+.footer {
+  padding: 100px 10px 50px 10px;
+    margin-top: -35px !important;
+}
+.username-follow span {
+    font-family: 'Inter';
+    font-size: 28px;
+}
+.profile-icon {
+    width: 75px;
+    height: 75px;
+}
+.title-section small {
+    font-size: 19px;
+
+ }
+ .secvidbtn1 , .secvidbtn2{
+    font-size: 20px;
+ }
+}
 
 @media only screen and (max-width:1024px) {}
 
@@ -169,9 +288,12 @@
   }
 
   .marquee-text {
-    font-size: 30px;
+    font-size: 50px;
     margin: 0 10px;
   }
+  .secinsbrrg {
+    padding: 10px 1px;
+}
 
   .secbtnvwe {
     padding-bottom: 0px;
@@ -459,6 +581,15 @@
   .seccontbg {
     padding: 40px 10px;
     width: 99%;
+}
+.sechbscbg {
+    padding: 60px 10px;
+}
+.seclatsbgg {
+    padding: 60px 20px;
+}
+.secfootheadtext {
+    font-size: 26px;
 }
 }
 

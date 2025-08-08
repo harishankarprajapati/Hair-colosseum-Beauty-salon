@@ -82,6 +82,9 @@ button.owl-next-custom.btn.btn-link.text-white {
   align-items: center;
   gap: 8px;
 }
+.sechbscbg{
+  padding: 60px 100px;
+}
 
 .btn.show {
   border: 0px !important;
@@ -323,7 +326,7 @@ button.owl-next-custom.btn.btn-link.text-white {
 }
 
 .intro-section {
-  padding: 60px 20px;
+  padding: 60px 100px;
 }
 
 .welcome-text {
@@ -380,7 +383,7 @@ button.owl-next-custom.btn.btn-link.text-white {
 /* imhghover */
 .secimhcolubg {
   background: #FFF2F5;
-  padding: 60px 0px;
+  padding: 60px 100px;
 }
 
 .service-card {
@@ -1949,4 +1952,10 @@ h2#headingOne {
   background-color: #ffffff;
   padding: 15px 20px;
   border-top: 1px solid #dee2e6;
+}
+.secinsbrrg{
+  padding: 10px 100px;
+}
+.seclatsbgg{
+  padding: 60px 100px;
 }
