@@ -414,6 +414,32 @@
  .secac22bg{
   width: 99%;
  }
+ .s-img-w {
+    width: 90%;
+ }
+ .sec-margin {
+    margin-top: -50px !important;
+ }
+ .sec-bord-serv , .sec-bord-serv2{
+    border: 1px solid #DCDCDC;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sec-sev-book-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 10px 0px;
+}
+.sec-sev-book-h {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+.secbgser {
+    padding: 50px 10px 50px 10px;
+}
 }
 
 @media only screen and (max-width: 576px) {
