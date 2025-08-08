@@ -31,6 +31,7 @@
   button.navbar-toggler {
     background: #171717;
     height: 35px;
+    font-size: 20px;
   }
 
   .headermenusec {
@@ -81,6 +82,7 @@
   button.navbar-toggler {
     background: #171717;
     height: 35px;
+        font-size: 20px;
   }
 
   .secpadlr {
@@ -408,6 +410,9 @@
 
   #button {
     bottom: 90px;
+ }
+ .secac22bg{
+  width: 99%;
  }
 }
 
