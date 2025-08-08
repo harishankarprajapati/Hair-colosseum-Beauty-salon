@@ -367,6 +367,10 @@
   .col-md-4.product-item {
     width: 50%;
 }
+.brandsec .owl-item img
+ {
+    border-radius: 5px !important;
+}
 
   /* shop-end */
   /* product page  */
