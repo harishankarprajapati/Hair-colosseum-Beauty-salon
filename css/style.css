@@ -33,7 +33,19 @@ a.text-white.fs-3 {
 .secmainlogo {
   width: 30% !important;
 }
+/* marquee */
+.sectexmarq {
+  font-size: 20px;
+  font-weight: 500;
+  color: #F51E52;
+  font-family: 'Inter';
+  margin: 0 20px;
+}
 
+.marquee-container2 {
+  padding: 20px 0;
+  overflow: hidden;
+}
 .mentslid .owl-nav-custom {
   pointer-events: none;
   /* allow buttons inside to receive events but not the container */
