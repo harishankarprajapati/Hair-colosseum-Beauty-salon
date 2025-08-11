@@ -1986,3 +1986,34 @@ h2#headingOne {
 button.owl-dot.active {
     background: #fff;
 }
+.secabopasdcont h5{
+  color: #F51E52;
+    font-family: 'Great Vibes';
+    font-size: 45px;
+    text-align: center;
+    margin-top: 0;
+}
+.secabopasdcont h3{
+  font-weight: 700;
+    font-size: 45px;
+    color: #171717;
+    font-family: 'Inter';
+    text-align: center;
+}
+.secabopasdcont p {
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #171717;
+    text-align: center;
+}
+.sec-adcot h3{
+  font-weight: 700;
+    font-size: 45px;
+    color: #171717;
+    font-family: 'Inter';
+}
+.sec-adcot p{
+   font-family: 'Inter';
+    font-size: 18px;
+    color: #171717;
+}
