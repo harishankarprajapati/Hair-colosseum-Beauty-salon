@@ -277,13 +277,19 @@ button.owl-next-custom.btn.btn-link.text-white {
 /* Owl nav arrow styling */
 .heroslider.owl-carousel .owl-nav {
   position: absolute;
-  top: 80%;
+  top: 86%;
   width: 100%;
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
   pointer-events: none;
+}
+.heroslider button.owl-prev {
+    margin-left: 50px;
+}
+.heroslider button.owl-next{
+margin-right: 50px;
 }
 
 .heroslider.owl-carousel .owl-nav button.owl-prev,
@@ -750,6 +756,13 @@ button.owl-next-custom.btn.btn-link.text-white {
   display: block;
   margin-top: 12px;
   padding-bottom: 30px;
+}
+.smal2{
+  font-size: 14px ;
+   font-family: 'Inter';
+}
+button.btn.btn-primary.sec-menu-btn2.sec-btn-margin {
+    margin: 0;
 }
 
 .profile-follow {
@@ -1958,4 +1971,19 @@ h2#headingOne {
 }
 .seclatsbgg{
   padding: 60px 100px;
+}
+.heroslider .owl-dots {
+       margin-top: -100px;
+    position: relative;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.heroslider button.owl-dot {
+    background: #b1acac;
+    border-radius: 50px;
+    height: 12px;
+    margin-right: 10px;
+}
+button.owl-dot.active {
+    background: #fff;
 }

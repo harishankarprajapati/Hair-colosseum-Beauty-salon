@@ -77,10 +77,11 @@
     max-height: 60px;
     }
     .sec2blog {
-    font-size: 24px;
-    }
-    .small, small {
     font-size: 22px;
+    }
+    .small {
+    font-size: 18px;
+    padding-top: 10px;
 }
 .blog-tag {
     font-size: 22px;
@@ -134,6 +135,26 @@ a.text-white.text-decoration-underline{
  .secvidbtn1 , .secvidbtn2{
     font-size: 20px;
  }
+ .heroslider button.owl-prev {
+    margin-left: 100px;
+    
+}
+.heroslider button.owl-next{
+margin-right: 100px;
+}
+.card-body {
+    margin-top: -95px;
+}
+.card-body .text-start h6 {
+    font-size: 26px;
+}
+.card-body .text-start small a {
+    font-size: 18px;
+}
+.arrow-icon {
+    font-size: 32px;
+}
+
 }
 
 @media only screen and (max-width:1024px) {}
