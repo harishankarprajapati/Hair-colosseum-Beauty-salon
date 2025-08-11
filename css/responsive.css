@@ -612,6 +612,24 @@ margin-right: 100px;
 .secfootheadtext {
     font-size: 26px;
 }
+.sec-erv-book {
+    padding: 60px 10px;
+}
+.sec-adcot h3 {
+    font-size: 35px;
+ }
+ .secabopasdcont h5 {
+  text-align: start;
+ }
+  .secabopasdcont h3 {
+  text-align: start;
+ }
+  .secabopasdcont p {
+  text-align: start;
+ }
+ .about-hero-content h2 {
+    font-size: 30px;
+ }
 }
 
 @media only screen and (max-width: 576px) {
